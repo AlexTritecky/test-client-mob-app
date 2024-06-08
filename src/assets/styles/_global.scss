@@ -1,8 +1,20 @@
 @import 'reset';
 @import 'breakpoints';
 
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   min-height: 100%;
-  margin: 0;
-  font-family: Roboto, sans-serif;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+.mt-6px {
+  margin-top: 6px;
 }
